@@ -1,0 +1,12 @@
+{application, msgbus_common_utils,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { msgbus_common_utils_app, []}},
+  {env, []}
+ ]}.
