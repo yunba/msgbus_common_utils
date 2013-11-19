@@ -1,0 +1,10 @@
+package internal_package;
+
+message InternalPackage {
+    required uint64 from_ip = 1;
+    required uint32 from_port = 2;
+    required uint64 to_ip = 3;
+    required uint32 to_port = 4;
+    required string from_tag = 5;
+    required string mqtt_package = 6;
+ }
