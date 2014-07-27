@@ -10,4 +10,6 @@ message InternalPackage {
     required uint64 uid = 7;
     required string client_id = 8;
     required bytes mqtt_package = 9;
+    optional string appkey = 10;
+    optional uint32 platform = 11;
  }
