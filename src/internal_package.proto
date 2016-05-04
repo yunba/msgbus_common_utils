@@ -7,9 +7,10 @@ message InternalPackage {
     required uint32 to_port = 4;
     required string from_tag = 5;
     required uint32 protocol_version = 6;
-    required uint64 uid = 7;
+    repeated uint64 uid = 7;
     required string client_id = 8;
     required bytes mqtt_package = 9;
-    optional string appkey = 10;
-    optional uint32 platform = 11;
+    required uint32 emqtt_score = 10;
+    optional string appkey = 11;
+    optional uint32 platform = 12;
  }
