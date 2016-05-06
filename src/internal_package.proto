@@ -12,6 +12,6 @@ message InternalPackage {
     required bytes mqtt_package = 9;
     optional string appkey = 11;
     optional uint32 platform = 12;
-    optional uint32 emqtt_socre = 13;
+    optional uint32 emqtt_score = 13;
     repeated uint64 publish_uids = 14;
  }
