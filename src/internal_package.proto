@@ -10,7 +10,7 @@ message InternalPackage {
     required uint64 from_uid = 7;
     required string client_id = 8;
     required bytes mqtt_package = 9;
-    optional string appkey = 11;
-    optional uint32 platform = 12;
-    repeated uint64 to_uid = 13;
+    optional string appkey = 10;
+    optional uint32 platform = 11;
+    repeated uint64 to_uid = 12;
  }
