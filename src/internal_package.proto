@@ -13,4 +13,5 @@ message InternalPackage {
     optional string appkey = 10;
     optional uint32 platform = 11;
     repeated uint64 to_uid = 12;
+    optional uint32 version = 13;
  }
