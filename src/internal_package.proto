@@ -15,4 +15,5 @@ message InternalPackage {
     repeated uint64 to_uid = 12;
     optional uint32 version = 13;
     optional string score = 14;
+    optional string abnormal_disconnect = 15;
  }
